@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaLinkedinIn,
   FaStackOverflow,
+  FaCode,
 } from "react-icons/fa6";
 
 const YEAR = new Date().getFullYear();
@@ -23,8 +24,9 @@ function SocialLinks() {
     <div className="flex text-lg gap-3.5 float-right transition-opacity duration-300 hover:opacity-90">
       <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} />
       <SocialLink href={socialLinks.github} icon={FaGithub} />
-      <SocialLink href={socialLinks.appstore} icon={FaAppStore} />
       <SocialLink href={socialLinks.stackoverflow} icon={FaStackOverflow} />
+      <SocialLink href={socialLinks.appstore} icon={FaAppStore} />
+      <SocialLink href={socialLinks.leetcode} icon={FaCode} />
     </div >
   );
 }
