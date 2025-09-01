@@ -7,7 +7,7 @@ import { projects } from "./projects/project-data";
 import { useState } from 'react';
 
 export default function Page() {
-  const [showMore, setShowMore] = useState(false);
+  // const [showMore, setShowMore] = useState(false);
 
   return (
     <section>
@@ -27,12 +27,12 @@ export default function Page() {
       )} */}
 
       {/* Toggle Button */}
-      <button
+      {/* <button
         onClick={() => setShowMore(!showMore)}
         className="text-sm text-blue-500 hover:underline focus:outline-none"
       >
         {showMore ? 'Show less' : 'Read more'}
-      </button>
+      </button> */}
     </div>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Projects</h1>
