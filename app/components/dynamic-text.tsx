@@ -5,7 +5,6 @@ const DynamicText = () => {
   // Dynamic texts based on your interests
   const texts = [
     'building things',
-    'gaming',
     'security and privacy',
     'technology',
     'going for a run'
