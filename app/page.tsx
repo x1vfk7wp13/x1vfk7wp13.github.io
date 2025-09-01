@@ -20,7 +20,7 @@ export default function Page() {
         Hi! I'm Uno 👋, a software engineer from Ulaanbaatar, Mongolia 🇲🇳.
       </p>
 
-      {/* Hidden until clicked */}
+      {/* Hidden until clicked TODO */}
       {/* {showMore && (
         <p>
         </p>
