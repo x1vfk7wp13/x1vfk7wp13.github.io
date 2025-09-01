@@ -21,11 +21,10 @@ export default function Page() {
       </p>
 
       {/* Hidden until clicked */}
-      {showMore && (
+      {/* {showMore && (
         <p>
-          From a young age, video games like Drakengard, World of Warcraft, and League of Legends ignited my imagination and challenged me to explore new worlds beyond reality. I am passionate about merging my deep love for gaming with engineering to build innovative experiences that inspire and captivate others.
         </p>
-      )}
+      )} */}
 
       {/* Toggle Button */}
       <button
